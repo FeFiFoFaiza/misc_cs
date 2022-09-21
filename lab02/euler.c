@@ -1,10 +1,4 @@
-/**
-  9/17/2022
-  
-  Notes:
-    - I'm annoyed that C doesn't give enough warnings
-    - The solution I saw online for number 6 is one digit off from mine, hoping it's a typo
-**/
+
 int problem1(){
     int sum = 0;
     int i;
@@ -33,11 +27,3 @@ int problem6(){
     return (sq - sqsum);
 }
 
-int main(){
-    printf("Problem 1 \n \tHere is the sum of all" 
-            " multiples of 3 and 5 under 100: %d \n", problem1());
-    printf("Problem 6 \n \tHere is the difference between"
-            " the sum of all squares and the square of all sums"
-            " below 100: %d \n", problem6());
-    printf("done.");
-}
