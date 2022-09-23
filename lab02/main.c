@@ -8,3 +8,4 @@ int main(){
             " the sum of all squares and the square of all sums"
             " below 100: %d \n", problem6());
     printf("done.");
+}

@@ -1,3 +1,3 @@
-int problem1(){}
+int problem1();
 
-int problem6(){}
+int problem6();
